@@ -1,3 +1,152 @@
+* Miller Puckette's native tutorial patches from Pd
+** overview
+
+Um, +This isn't very helpful+ this could be more helpful.
+
+** problems with buffer naming and audio computation startup
+*** error reporting
+**** original raw
+warning: array1: multiply defined
+array1: number of points (155948) not a power of 2 plus three
+warning: mtof: multiply defined
+warning: mtof: multiply defined
+warning: array1: multiply defined
+warning: dbtorms: multiply defined
+warning: E03-table: multiply defined
+warning: E03-table: multiply defined
+warning: bell-curve: multiply defined
+warning: bell-curve: multiply defined
+warning: pulse-output: multiply defined
+warning: pulse-output: multiply defined
+warning: E03-table: multiply defined
+warning: E03-table: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: mtof: multiply defined
+warning: mtof: multiply defined
+warning: dbtorms: multiply defined
+warning: dbtorms: multiply defined
+warning: mtof: multiply defined
+warning: phase2: multiply defined
+warning: phase2: multiply defined
+warning: phase2: multiply defined
+warning: read-pt: multiply defined
+warning: read-pt: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase2: multiply defined
+warning: phase2: multiply defined
+warning: phase2: multiply defined
+warning: phase2: multiply defined
+warning: read-pt: multiply defined
+warning: read-pt: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+**** editing and organizing error messages
+warning: array1: multiply defined
+array1: number of points (155948) not a power of 2 plus three
+warning: mtof: multiply defined
+warning: mtof: multiply defined
+
+warning: array1: multiply defined
+warning: dbtorms: multiply defined
+
+warning: E03-table: multiply defined
+warning: E03-table: multiply defined
+
+warning: bell-curve: multiply defined
+warning: bell-curve: multiply defined
+
+warning: pulse-output: multiply defined
+warning: pulse-output: multiply defined
+
+warning: E03-table: multiply defined
+warning: E03-table: multiply defined
+
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+warning: sample1: multiply defined
+
+warning: mtof: multiply defined
+warning: mtof: multiply defined
+
+warning: dbtorms: multiply defined
+warning: dbtorms: multiply defined
+warning: mtof: multiply defined
+
+warning: phase2: multiply defined
+warning: phase2: multiply defined
+warning: phase2: multiply defined
+
+warning: read-pt: multiply defined
+warning: read-pt: multiply defined
+
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+
+warning: phase2: multiply defined
+warning: phase2: multiply defined
+warning: phase2: multiply defined
+warning: phase2: multiply defined
+
+warning: read-pt: multiply defined
+warning: read-pt: multiply defined
+
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+warning: phase: multiply defined
+
+
+
+* basic .pd text blocks
 #N canvas 686 507 450 300 10;
 #X text 59 73 comment;
 #X obj 221 82 intro;

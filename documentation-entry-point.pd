@@ -1,2 +1,9 @@
-#N canvas 321 163 450 300 10;
-#X text 59 73 comment;
+#N canvas 550 126 440 321 12;
+#X text 59 73 12-point font;
+#X text 69 83 When duplicating a comment \, this is where it goes.
+;
+#X text 79 93 That is \, (x + 10 \, y + 10) is the shift;
+#X text 89 103 Why a new line for a lone semi-colon?;
+#N canvas 0 23 450 300 box 0;
+#X restore 59 175 pd box;
+#X obj 60 199;
